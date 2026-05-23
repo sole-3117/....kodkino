@@ -15,7 +15,7 @@ import db
 import backup_restore
 
 # XAVFSIZLIK: BOT_TOKEN ni .env fayldan o'qiymiz
-BOT_TOKEN  = "8421407615:AAFH-EYUqc2duMn5eiWbs4b9XqqRxfRV0bk"
+BOT_TOKEN  = "8922191640:AAG0jseLXI7ZR2TKLB-o2AYMsribcH2XRu4"
 MAIN_ADMIN = 6887251996
 
 logging.basicConfig(
