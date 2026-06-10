@@ -15,8 +15,9 @@ import db
 import backup_restore
 
 # XAVFSIZLIK: BOT_TOKEN ni .env fayldan o'qiymiz
-BOT_TOKEN  = "8922191640:AAG0jseLXI7ZR2TKLB-o2AYMsribcH2XRu4"
-MAIN_ADMIN = 6887251996
+load_dotenv()
+BOT_TOKEN  = os.getenv("BOT_TOKEN")
+MAIN_ADMIN = int(os.getenv("MAIN_ADMIN"))
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
