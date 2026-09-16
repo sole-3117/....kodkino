@@ -1832,7 +1832,7 @@ def main():
             "'pip install python-telegram-bot[job-queue]' buyrug'ini bajaring."
         )
 
-    logger.info("🎬 Kino Bot v1.2.9 ishga tushdi!")
+    logger.info("🎬 Kino Bot v1.9.8 ishga tushdi!")
     app.run_polling(drop_pending_updates=True)
 
 if __name__ == "__main__":
